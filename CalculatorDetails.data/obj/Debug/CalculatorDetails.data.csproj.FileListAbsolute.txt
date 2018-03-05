@@ -1,0 +1,9 @@
+E:\Ankita\CalculatorDetails\CalculatorDetails.data\bin\Debug\CalculatorDetails.data.dll.config
+E:\Ankita\CalculatorDetails\CalculatorDetails.data\bin\Debug\CalculatorDetails.data.dll
+E:\Ankita\CalculatorDetails\CalculatorDetails.data\bin\Debug\CalculatorDetails.data.pdb
+E:\Ankita\CalculatorDetails\CalculatorDetails.data\bin\Debug\EntityFramework.dll
+E:\Ankita\CalculatorDetails\CalculatorDetails.data\bin\Debug\EntityFramework.SqlServer.dll
+E:\Ankita\CalculatorDetails\CalculatorDetails.data\bin\Debug\EntityFramework.xml
+E:\Ankita\CalculatorDetails\CalculatorDetails.data\bin\Debug\EntityFramework.SqlServer.xml
+E:\Ankita\CalculatorDetails\CalculatorDetails.data\obj\Debug\CalculatorDetails.data.dll
+E:\Ankita\CalculatorDetails\CalculatorDetails.data\obj\Debug\CalculatorDetails.data.pdb

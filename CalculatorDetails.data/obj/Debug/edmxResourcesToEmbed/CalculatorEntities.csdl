@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AngularCalculatorModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CalculatorDetail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="number1" Type="Int32" Nullable="false" />
+    <Property Name="number2" Type="Int32" Nullable="false" />
+    <Property Name="typeOfOperation" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="result" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="AngularCalculatorEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CalculatorDetails" EntityType="Self.CalculatorDetail" />
+  </EntityContainer>
+</Schema>

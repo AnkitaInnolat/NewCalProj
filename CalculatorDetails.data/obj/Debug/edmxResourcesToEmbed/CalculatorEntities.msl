@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AngularCalculatorModelStoreContainer" CdmEntityContainer="AngularCalculatorEntities">
+    <EntitySetMapping Name="CalculatorDetails">
+      <EntityTypeMapping TypeName="AngularCalculatorModel.CalculatorDetail">
+        <MappingFragment StoreEntitySet="CalculatorDetails">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="number1" ColumnName="number1" />
+          <ScalarProperty Name="number2" ColumnName="number2" />
+          <ScalarProperty Name="typeOfOperation" ColumnName="typeOfOperation" />
+          <ScalarProperty Name="result" ColumnName="result" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
